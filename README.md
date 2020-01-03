@@ -1,12 +1,12 @@
 HTML5学习
 ========
 
-![IE11](/LearnHTML5/raw/master/resource/ie11.png)
-![Chrome](/LearnHTML5/raw/master/resource/chrome.png)
-![Firefox](/LearnHTML5/raw/master/resource/firefox.png)
-![Safari](/LearnHTML5/raw/master/resource/safari.png)
-![iphone](/LearnHTML5/raw/master/resource/iphone.png)
-![android](/LearnHTML5/raw/master/resource/android.png)
+![IE11](/resource/ie11.png)
+![Chrome](/resource/chrome.png)
+![Firefox](/resource/firefox.png)
+![Safari](/resource/safari.png)
+![iphone](/resource/iphone.png)
+![android](/resource/android.png)
 
 ## Youtube教学视频
 
