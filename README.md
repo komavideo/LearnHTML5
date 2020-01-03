@@ -8,6 +8,10 @@ HTML5学习
 ![iphone](/LearnHTML5/raw/master/resource/iphone.png)
 ![android](/LearnHTML5/raw/master/resource/android.png)
 
+## Youtube教学视频
+
+https://www.youtube.com/playlist?list=PLliocbKHJNwvN8NONM-ZOw9XZ_aXJGluG
+
 ## 课程结构
 
 * 基本结构
