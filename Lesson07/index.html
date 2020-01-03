@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="utf-8">
+        <title>HTML5-script,noscript标记</title>
+        <script src="/js/myscript.js"></script>
+        <script type="text/javascript">
+            var myStr = "Hello world!";
+//            alert(myStr);
+        </script>        
+    </head>
+    <body>
+        这是一个HTML5的网页。
+        <noscript><p>您的网页不支持javascript脚本功能，请检查您的浏览器设置。</p></noscript>  
+        <script type="text/javascript">
+            alert(myStr);
+        </script>
+    </body>
+</html>
