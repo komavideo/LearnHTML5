@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="utf-8">
+        <title>scoped属性例子</title>
+        <style type="text/css">
+        div {
+            border: solid 3px blue;
+            margin: 20px;
+        }
+        </style>
+    </head>
+    <body>
+        <div>
+            <p>全局样式单的样式</p>
+            <div>
+                <style scoped="true">
+                div {
+                    border: solid 3px red;
+                    background: gray;
+                    color: white;
+                }
+                </style>
+                <p>scoped属性指定的样式单的样式</p>
+            </div>
+        </div>        
+    </body>
+</html>
