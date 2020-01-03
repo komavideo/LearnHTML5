@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="utf-8">
+        <title>HTML5-template标记</title>
+    </head>
+    <body>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>学号</th>
+                    <th>姓名</th>
+                    <th>年龄</th>
+                </tr>
+            </thead>
+            <tbody>
+                <template id="myTemplateName">
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </template>
+<!--
+                <tr>
+                    <td>1</td>
+                    <td>章三</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>李四</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>王五</td>
+                    <td>18</td>
+                </tr>
+-->
+            </tbody>
+        </table>
+
+        <script type="text/javascript">
+        var dataList = [
+            { no:1, name:"章三", age:20 },
+            { no:2, name:"李四", age:16 },
+            { no:3, name:"王五", age:18 },
+        ];
+
+        var template = document.querySelector("#myTemplateName");
+        for (var i = 0; i < dataList.length; i++) {
+            var data = dataList[i];
+            var cloneRow = template.content.cloneNode(true);
+            var cells = cloneRow.querySelectorAll("td");
+            cells[0].textContent = data.no;
+            cells[1].textContent = data.name;
+            cells[2].textContent = data.age;
+            template.parentNode.appendChild(cloneRow);
+        }
+        </script>
+    </body>
+</html>
